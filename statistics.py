@@ -60,11 +60,11 @@ def main():
     print(f"Total number of messages: {messageboard.num_messages()}")
     print(f"Most common word: {messageboard.most_common_word()}")
     print(
-        f"Avg. number of words per sentence.:"
+        f"Avg. number of words per sentence:"
         f"{messageboard.avg_num_words_per_sentence()}"
     )
     print(
-        f"Avg. number of messages per thread, per topic.:"
+        f"Avg. number of messages per thread, per topic:"
         f"{messageboard.avg_num_msg_thread_topic()}"
     )
 

@@ -1,31 +1,32 @@
 install:
-	pipenv install -r requirements.txt --skip-lock
+	@poetry install
 
 migrate:
-	pipenv run python src/manage.py makemigrations
-	pipenv run python src/manage.py migrate
+	@poetry run python src/manage.py makemigrations
+	@poetry run python src/manage.py migrate
 
 seed:
-	pipenv run python src/manage.py seed_database
+	@poetry run python src/manage.py seed_database
 
 build: install migrate seed
 
 killdb:
-	rm -f src/db.sqlite3
+	@rm -f src/db.sqlite3
 
 wipe: killdb migrate seed
 
 run:
-	pipenv run python src/manage.py runserver 0.0.0.0:8080
+	@poetry run python src/manage.py runserver 0.0.0.0:8080
 
 shell:
-	pipenv run python src/manage.py shell
+	@poetry run python src/manage.py shell
 
 format:
-	pipenv run black src
+	@poetry run black src
+	@poetry run flake8 src
 
 test:
-	pipenv run python src/manage.py test messageboard.tests
+	@poetry run python src/manage.py test messageboard.tests
 
 stats:
-	pipenv run python statistics.py
+	@poetry run python statistics.py

@@ -1,6 +1,0 @@
-Django==2.2
-django-rest-framework
-factory_boy
-requests
-
-black

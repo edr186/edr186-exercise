@@ -7,9 +7,9 @@ pace, and show us what you’re capable of!
 ## Instructions
 
 This repository contains the [Django](https://docs.djangoproject.com/en/2.2/)
-project for a bare-bones, anonymous message board, structured as *Topic >
-Thread > Message*. Users cannot create new Topics, but they can create new
-Threads and Messages.
+project for a bare-bones, anonymous message board, structured as *Topic > Thread
+> Message*. Users cannot create new Topics, but they can create new Threads and
+Messages.
 
 To get started, please [fork the
 repository](https://github.com/CloudBoltSoftware/coding-exercise/fork).
@@ -92,12 +92,12 @@ Django resources linked in the Appendix.
 ### Requirements
 
 * [Python >=3.5](https://www.python.org/downloads/)
-* [pipenv](https://github.com/pypa/pipenv#installation)
+* [Poetry](https://github.com/python-poetry/poetry)
 
 It's recommended that you use the `make` commands provided in the Makefile. See
 the Appendix for an explanation of what these commands do.
 
-Additional packages can be installed using `pipenv install <package-name>`.
+Additional packages can be installed using `poetry add <package-name>`.
 
 > Note: Feel free to install any additional packages or tools to support your
 > efforts!
