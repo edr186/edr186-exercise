@@ -18,7 +18,7 @@ repository](https://github.com/CloudBoltSoftware/coding-exercise/fork).
 
 Complete the following tasks in priority order:
 
-1. Using the `statistics.py` script, which interacts with the messageboard REST
+1. Using the `stats.py` script, which interacts with the messageboard REST
    API (http://localhost:8080/api/), and return the following information:
     1. Total number of messages
     1. Most frequently used word in messages.
@@ -91,7 +91,7 @@ Django resources linked in the Appendix.
 
 ### Requirements
 
-* [Python >=3.5](https://www.python.org/downloads/)
+* [Python >= 3.6](https://www.python.org/downloads/)
 * [Poetry](https://github.com/python-poetry/poetry)
 
 It's recommended that you use the `make` commands provided in the Makefile. See
@@ -104,6 +104,9 @@ Additional packages can be installed using `poetry add <package-name>`.
 
 ### Getting Started
 
+If you have any of the following environment variables set, you should unset them:
+* `DJANGO_SETTINGS_MODULE`
+
 1. To initialize the application, run `make build`. This command creates a
    virtual environment using `pipenv` and installs the required Python packages.
    It also runs database migrations and seeds your database with fixtures (i.e.
@@ -111,7 +114,7 @@ Additional packages can be installed using `poetry add <package-name>`.
 2. To start the application, run `make run`. This command starts the Django
    server on http://localhost:8080.
 3. In a separate terminal, you can run automated tests using `make tests`.
-4. To run the `statistics.py` script, run `make stats`.
+4. To run the `stats.py` script, run `make stats`.
 5. For everything else, check out the table below.
 
 ## Appendix
@@ -125,7 +128,7 @@ development experience.
 |---------------|-----------------------------------------------------------------------------------------------------|
 | `make build`  | Installs required packages to the virtual environment, managed by `pipenv`, and seeds your database |
 | `make run`    | Runs the Django server at `http://localhost:8080`                                                   |
-| `make stats`  | Runs the `statistics.py` script                                                                     |
+| `make stats`  | Runs the `stats.py` script                                                                          |
 | `make shell`  | Opens an interactive terminal                                                                       |
 | `make test`   | Runs unit tests                                                                                     |
 | `make format` | Formats the `src` folder using `black`                                                              |

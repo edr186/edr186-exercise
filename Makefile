@@ -1,6 +1,9 @@
 install:
 	@poetry install
 
+update:
+	@poetry update
+
 migrate:
 	@poetry run python src/manage.py makemigrations
 	@poetry run python src/manage.py migrate
@@ -29,4 +32,4 @@ test:
 	@poetry run python src/manage.py test messageboard.tests
 
 stats:
-	@poetry run python statistics.py
+	@poetry run python stats.py
