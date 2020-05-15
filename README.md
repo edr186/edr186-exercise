@@ -7,9 +7,9 @@ pace, and show us what you’re capable of!
 ## Instructions
 
 This repository contains the [Django](https://docs.djangoproject.com/en/2.2/)
-project for a bare-bones, anonymous message board, structured as *Topic > Thread
-> Message*. Users cannot create new Topics, but they can create new Threads and
-Messages.
+project for a bare-bones, anonymous message board, structured as 
+*Topic > Thread > Message*. Users cannot create new Topics, but they can create
+new Threads and Messages.
 
 To get started, please [fork the
 repository](https://github.com/CloudBoltSoftware/coding-exercise/fork).
