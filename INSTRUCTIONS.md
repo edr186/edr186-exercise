@@ -22,8 +22,7 @@ Complete the following tasks in priority order:
        write it to `messageboard.json`.
 1. Add the ability to edit and/or delete a message.
 
-After you've completed the above tasks, implement one or more features of your
-choosing. Here are some ideas:
+After you've completed the above tasks, implement one or more of the following features:
 
 1. Add a pagination method to the Thread model.
 1. Reimplement the message board as a non-web application. For example, a
@@ -38,7 +37,7 @@ choosing. Here are some ideas:
 ## Post-Mortem
 
 After you've finished with development, we ask that you write up a
-**post-mortem** with the following questions as a starting point:
+**post-mortem** and include it in your fork with the following questions as a starting point:
 
 1. What design choices did you make, and why? Include approaches that did and
    did not work.
@@ -51,25 +50,17 @@ After you've finished with development, we ask that you write up a
 When you're finished, please send a link to your forked version of this
 repository to your hiring contact.
 
-## Expectations
-
-If you don’t complete all the tasks, that’s absolutely fine. We’re asking that
-you spend a maximum of 3 hours of total development time working on this
-assignment, distributed however you see fit. Some candidates will be able to
-complete all requested tasks in the allotted time, but people work at different
-rates, and folks have different expertise. We’re more interested to see what you
-can get done in 3 hours and how you approach problems like these.
-
-We may ask you about this in a future interview, so we encourage you to take
-notes!
-
 ### Evaluation Criteria
 
 Here's what we're looking for:
 
+* How you approach the problem
 * Code quality
 * Communication
 * Python chops
 * Feature design
 * Test quality
 * Django dj-chops
+
+We may ask you about this in a future interview, so we encourage you to take
+notes!
