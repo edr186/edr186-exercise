@@ -22,7 +22,7 @@ Complete the following tasks in priority order:
        write it to `messageboard.json`.
 1. Add the ability to edit and/or delete a message.
 
-After you've completed the above tasks, implement one or more of the following features:
+After you've completed the above tasks, feel free to show off by implementing one or more of the following features, if you have time:
 
 1. Add a pagination method to the Thread model.
 1. Reimplement the message board as a non-web application. For example, a
